@@ -13,8 +13,8 @@
   <a href="https://travis-ci.org/briochemc/DualMatrixTools.jl">
     <img alt="Build Status" src="https://travis-ci.org/briochemc/DualMatrixTools.jl.svg?branch=master">
   </a>
-  <a href='https://coveralls.io/github/briochemc/DualMatrixTools.jl'>
-    <img src='https://coveralls.io/repos/github/briochemc/DualMatrixTools.jl/badge.svg' alt='Coverage Status' />
+  <a href='https://coveralls.io/github/briochemc/DualMatrixTools.jl?branch=master'>
+    <img src='https://coveralls.io/repos/github/briochemc/DualMatrixTools.jl/badge.svg?branch=master' alt='Coverage Status' />    
   </a>
   <a href="https://codecov.io/gh/briochemc/DualMatrixTools.jl">
     <img src="https://codecov.io/gh/briochemc/DualMatrixTools.jl/branch/master/graph/badge.svg" />
@@ -80,5 +80,5 @@ julia> factorize(Mf, M, update_factors=true) # Mf.B and Mf.Af are updated
 ## Citation
 
 If you use this package, please cite it!
-You can export the citation by first clicking on the DOI badge at the top, which links to the Zenodo record of the package, and then clicking on the citation format you want in the "Export" box at the bottom of the page.
+You can either directly use the bibtex entry, [CITATION.bib](CITATION.bib), or go to the [Zenodo record of the package](https://doi.org/10.5281/zenodo.1493571) and export the citation from there (the "Export" box at the bottom of that page).
 
